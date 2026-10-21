@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173c2d">
+  <meta name="description" content="Un pequeño detalle cada día hasta Navidad.">
+  <title>La Navidad de la tía 🎄</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="garland" aria-hidden="true">✦　❄　✦　❄　✦　❄　✦</div>
+  <header class="hero">
+    <p class="eyebrow">EDICIÓN NAVIDEÑA · DICIEMBRE</p>
+    <h1>La Navidad <span>de la tía</span></h1>
+    <p class="intro">24 días, 24 pequeñas sorpresas y una tía que se merece todo el cariño del mundo.</p>
+    <section class="countdown-card" aria-live="polite">
+      <p id="countdown-title" class="countdown-title">La cuenta atrás para Navidad</p>
+      <div class="countdown" aria-label="Cuenta atrás">
+        <div><strong id="days">--</strong><span>días</span></div>
+        <div><strong id="hours">--</strong><span>horas</span></div>
+        <div><strong id="minutes">--</strong><span>min</span></div>
+        <div><strong id="seconds">--</strong><span>seg</span></div>
+      </div>
+      <p id="today-note" class="today-note">Preparando la magia...</p>
+    </section>
+  </header>
+
+  <main>
+    <section class="section-heading">
+      <p class="eyebrow">TU PEQUEÑA MISIÓN DIARIA</p>
+      <h2>Abre el sobre del día</h2>
+      <p>Los sobres se van desbloqueando según avanza diciembre. ¡No vale hacer trampas! 👀</p>
+    </section>
+
+    <section id="envelopes" class="envelopes" aria-label="Calendario de Adviento"></section>
+
+    <section id="surprise" class="surprise-card" aria-live="polite">
+      <div class="surprise-icon" aria-hidden="true">🎁</div>
+      <p class="eyebrow">UN MENSAJE PARA TI</p>
+      <h2 id="surprise-title">La primera sorpresa te espera</h2>
+      <p id="surprise-body">Vuelve en diciembre para empezar a abrir tus sobres.</p>
+      <p id="surprise-extra" class="surprise-extra"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hecho con cariño, un poquito de espíritu navideño y muchas ganas de verte sonreír.</p>
+    <p class="footer-star">✦ FELIZ NAVIDAD ✦</p>
+  </footer>
+</body>
+</html>
